@@ -3,7 +3,7 @@ import { Copy, Pencil, Trash, Star } from "lucide-react";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { formatDateTime } from "../utils/dateFormatter";
-import EditNoteModal from "../modals/editNoteModal";
+import EditNoteModal from "../modals/EditNoteModal";
 import { copyToClipboard } from "../utils/copyToClipboard";
 
 const NotesCard = ({ note, setIsUpdated }) => {
